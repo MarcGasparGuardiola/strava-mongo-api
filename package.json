@@ -1,0 +1,19 @@
+{
+  "name": "myfirstapi",
+  "version": "1.0.0",
+  "description": "this is a simple API for testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Oriol",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi-objectid": "^4.0.2",
+    "mongoose": "^6.1.1"
+  }
+}
